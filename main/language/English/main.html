@@ -1,0 +1,171 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>English Collocations</title> <!-- 1st -->
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="../../../assets/css/main.css" /> <!-- 2nd -->
+		<style>
+			table {
+				width: 100%;
+				border-collapse: collapse;
+			}
+			th, td {
+				border: 1px solid black;
+				padding: 8px;
+				text-align: center;
+			}
+			.pagination, .categories {
+				margin: 20px 0;
+				text-align: center;
+			}
+			.colorful-text {
+				color: transparent;
+			}
+			.highlighted {
+				background-color: lightgray;
+				color : black;
+			}
+			c {
+				font-weight: bold;
+				color : red;
+			}
+			m {
+				font-weight: bold;
+				color: blue;
+			}
+			f {
+				font-weight: bold;
+				color: salmon;
+			}
+			n {
+				font-weight: bold;
+				color: green;
+			}
+		</style>
+	</head>
+	<body class="single is-preload">
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Main -->
+					<div id="main">
+						<div class="inner">
+							<header id="header">
+								<a href="../../../index.html" class="logo">Homepage</a> <!-- 3rd -->
+								<ul class="icons">
+									<a href="../../../main/repository/main.html" class="logo">&nbsp;&nbsp;Repository&nbsp;&nbsp;</a> <!-- 4th -->
+									<a href="../../../main/language/main.html" class="logo">&nbsp;&nbsp;Language&nbsp;&nbsp;</a> <!-- 5th -->
+								</ul>
+							</header>
+								
+							<h2 id="top">English Collocations</h2> <!-- 6th -->
+							
+							<p><b>TOTAL ITEMS:</b>&nbsp;<font color="red" id="items"></font></p>	
+							
+							<label for="column-select">HIDDEN COLUMN:</label>	
+							<select id="column-select" onchange="highlightColumn()" style="width: 150px;margin: 0 auto;">
+							<!-- Column options will be inserted here -->
+							</select>
+							
+							<b>ALL CATEGORIES:</b>
+							<div class="categories">
+							<!-- Category filter buttons will be inserted here -->
+							</div>
+
+							<b>CURRENT PAGE:</b>
+							<div class="pagination">
+								<button onclick="prevPage()"><<</button>
+								<span id="page-info"></span>
+								<button onclick="nextPage()">>></button>
+							</div>
+							
+							<table id="data-table">
+								<thead>
+									<tr id="table-header">
+										<!-- Table headers will be inserted here -->
+									</tr>
+								</thead>
+								<tbody>
+									<!-- Table data will be inserted here -->
+								</tbody>
+							</table>
+						</div>
+					</div>
+
+				<!-- Sidebar -->
+					<div id="sidebar">
+						<div class="inner">
+							<section>
+							<p style="text-align: center;"><b>Read Me Please</b></p>
+							<i>
+								<b>a.</b><br>
+								-- adjective<br>
+								<b>ca.</b><br>
+								-- comparative adjective<br>
+								<b>sa.</b><br>
+								-- superlative adjective<br>
+								<hr>
+								
+								<b>so.</b><br>
+								-- someone<br>
+								<b>sth.</b><br>
+								-- something (noun + noun clause)<br>
+								<b>sn.</b><br>
+								-- some number<br>
+								<b>at.</b><br>
+								-- a certain time<br>
+								<b>apt.</b><br>
+								-- a certain period of time<br>
+								<b>ap.</b><br>
+								-- a certain place<br>
+								<b>quo.</b><br>
+								-- quote<br>
+								<b>cp.</b><br>
+								-- compass points<br>
+								<hr>
+								
+								<b>vp.</b><br>
+								-- verb phrase base form<br>							
+								<b>vp_ger.</b><br>
+								-- verb phrase gerund<br>
+								<b>vp_pp.</b><br>
+								-- verb phrase past participle<br>
+								<b>vp_prp.</b><br>
+								-- verb phrase present participle<br>
+								<hr>
+								
+								<b>ici.</b><br>
+								-- interrogative clause introducer<br>
+								<b>ds.</b><br>
+								-- declarative sentence<br>
+								
+								<b>ppp.</b><br>
+								-- prepositional phrases of place<br>
+								<b>ppt.</b><br>
+								-- prepositional phrases of time<br>
+								<hr>
+								
+								<b>one's</b><br>
+								-- possessive<br>
+								<b>oneself</b><br>
+								-- reflexive<br>
+							</i>
+							</section>
+						</div>
+					</div>
+			</div>
+
+		<!-- Scripts -->
+			<script src="../../../assets/js/jquery.min.js"></script> <!-- 7th -->
+			<script src="../../../assets/js/browser.min.js"></script> <!-- 8th -->
+			<script src="../../../assets/js/breakpoints.min.js"></script> <!-- 9th -->
+			<script src="../../../assets/js/util.js"></script> <!-- 10th -->
+			<script src="../../../assets/js/main.js"></script> <!-- 11th -->
+			
+			<script src="list.js" charset="utf-8"></script>
+			<script src="../../../assets/js/custom/table.js" charset="utf-8"></script> <!-- 12th -->
+			<script src="main.js" charset="utf-8"></script>
+	</body>
+</html>

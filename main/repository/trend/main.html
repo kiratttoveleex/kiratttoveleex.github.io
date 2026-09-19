@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Math Test (40 mins) Scores Trend</title>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #f9f9f9;
+        }
+        .container {
+            background-color: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        h1 {
+            color: #333;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .controls {
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+            margin-bottom: 20px;
+        }
+        button {
+            padding: 8px 16px;
+            background-color: #9E9E9E;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+        button:hover {
+            background-color: #45a049;
+        }
+        button.active {
+            background-color: #2E7D32;
+            font-weight: bold;
+        }
+        .chart-container {
+            position: relative;
+            height: 400px;
+        }
+        .info {
+            text-align: center;
+            margin-top: 10px;
+            color: #666;
+            font-size: 14px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Math Test (40 mins) Scores Trend</h1>
+        
+        <div class="controls">
+            <button id="showRecent" class="active">Last 10</button>
+            <button id="showAll">All</button>
+        </div>
+        
+        <div class="chart-container">
+            <canvas id="scoreChart"></canvas>
+        </div>
+        
+        <div class="info" id="chartInfo">
+			Let's face setbacks head-on!
+		</div>
+    </div>
+	
+	<script src="list.js" charset="utf-8"></script>
+    <script>
+        // Get DOM elements
+        const showRecentBtn = document.getElementById('showRecent');
+        const showAllBtn = document.getElementById('showAll');
+        const chartInfo = document.getElementById('chartInfo');
+        
+        // Create chart
+        const ctx = document.getElementById('scoreChart').getContext('2d');
+        let scoreChart = new Chart(ctx, {
+            type: 'line',
+            data: {
+                labels: [],
+                datasets: [{
+                    label: 'Score',
+                    data: [],
+                    borderColor: '#4CAF50',
+                    backgroundColor: 'rgba(76, 175, 80, 0.1)',
+                    borderWidth: 2,
+                    fill: true,
+                    tension: 0.3
+                }]
+            },
+            options: {
+                responsive: true,
+                maintainAspectRatio: false,
+                scales: {
+                    y: {
+                        beginAtZero: false,
+                        min: 0,
+                        max: 73,
+                        title: {
+                            display: true,
+                        }
+                    },
+                    x: {
+                        title: {
+                            display: true,
+							}
+                    }
+                },
+                plugins: {
+                    legend: {
+                        display: true,
+                        position: 'top'
+                    },
+                    tooltip: {
+                        mode: 'index',
+                        intersect: false
+                    }
+                }
+            }
+        });
+        
+        // Show last 10 scores
+        function showRecentScores() {
+            const recentData = scoreData.slice(-10);
+            updateChart(recentData, "Let's face setbacks head-on!");
+        }
+        
+        // Show all scores
+        function showAllScores() {
+            updateChart(scoreData, "Let's face setbacks head-on!");
+        }
+        
+        // Update chart data
+        function updateChart(data, infoText) {
+            const dates = data.map(item => item.date);
+            const scores = data.map(item => item.score);
+            
+            scoreChart.data.labels = dates;
+            scoreChart.data.datasets[0].data = scores;
+            scoreChart.update();
+            
+            chartInfo.textContent = infoText;
+        }
+        
+        // Button event listeners
+        showRecentBtn.addEventListener('click', function() {
+            showRecentScores();
+            showRecentBtn.classList.add('active');
+            showAllBtn.classList.remove('active');
+        });
+        
+        showAllBtn.addEventListener('click', function() {
+            showAllScores();
+            showAllBtn.classList.add('active');
+            showRecentBtn.classList.remove('active');
+        });
+        
+        // Initialize with last 10 scores
+        showRecentScores();
+    </script>
+</body>
+</html>
