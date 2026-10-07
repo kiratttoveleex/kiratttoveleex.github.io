@@ -2,7 +2,7 @@ const fs = require("fs");
 
 const WORDS_FILE = "main/language/English/list.js";
 const WORDS_VAR = "list";
-const LIST_FILE = "main/repository/Trend/list.js";
+const LIST_FILE = "main/repository/trend/list.js";
 
 const load = (file, name) =>
   new Function(fs.readFileSync(file, "utf8") + `;return ${name};`)();
