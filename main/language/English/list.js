@@ -235,6 +235,13 @@ list = [
 [1,"be bummed about sth.","","I'm really bummed about missing the concert.","失望"],
 [1,"on the house","","The dessert is on the house — happy birthday!","免费赠送"],
 [1,"be right back","","Hold on, I'll be right back.","马上回来"],
+[1,"be scared of sth.","be afraid of sth.","I'm scared of the dark — I still sleep with a night light.","害怕"],
+[1,"put away","","Put away your phone — dinner's ready.","收好"],
+[1,"apply myself to sth.","","She applied herself to her studies and got straight A's.","专心致力于"],
+[1,"be discouraged by sth.","","Don't be discouraged by one bad grade.","因..气馁"],
+[1,"as a matter of fact..","","As a matter of fact, I was just about to call you.","事实上.."],
+[1,"make a crash landing","","The pilot made a crash landing in a cornfield.","紧急迫降"],
+
 
 [1,"","","",""],
 [1,"","","",""],
