@@ -248,6 +248,13 @@ list = [
 [1,"the rest of n.","","I'll finish the rest of the report tomorrow.","剩下的"],
 [1,"be fond of so./sth.","","He's fond of his grandmother's old stories.","喜欢.."],
 [1,"plenty of..","","We've got plenty of time — take it easy.","许多"],
+[1,"move sth. along","","Let's move this along — we're running out of time.","推进.."],
+[1,"the silver lining","","The silver lining of losing my job was finding my true passion.","不幸中的万幸"],
+[1,"hold out hope","","The family still holds out hope of finding their missing cat.","抱有希望"],
+[1,"take a leap of faith","","I took a leap of faith and quit my job to travel the world.","凭信念冒险一试"],
+[1,"interfere with..","","The loud music interfered with my sleep.","妨碍；干扰"], 
+[1,"beat me to it","","I wanted the last cookie, but my brother beat me to it.","捷足先登"],
+[1,"absence of..","","In the absence of evidence, the case fell apart.","缺少"],
 
 [1,"","","",""],
 [1,"","","",""],
