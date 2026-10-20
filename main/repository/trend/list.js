@@ -14,4 +14,5 @@ scoreData = [
 	{date: "26-10-17", score: 273},
 	{date: "26-10-18", score: 287},
 	{date: "26-10-19", score: 287},
+	{date: "26-10-20", score: 287},
 ];
