@@ -269,6 +269,22 @@ list = [
 [1,"like-minded individuals","","I found like-minded individuals at the book club.","志同道合的人"],
 [1,"come across","","I came across an old friend at the market.","偶遇"],
 [1,"fingers crossed","","Fingers crossed for your exam tomorrow!","但愿好运"],
+[1,"mess with so.","","Don't mess with him — he knows everyone in town.","招惹"],
+[1,"slipped on sth.","","He slipped on a banana peel and landed flat on his back.","在..上滑倒"],
+[1,"take off","","Her podcast took off after one viral episode.","迅速成功"],
+[1,"pull out","","The company pulled out of the deal at the last minute.","退出"],
+[1,"stay on message","","The politician stayed on message despite the tricky questions.","紧扣主题"],
+[1,"move sth. along","","The new manager moved the project along much faster.","推进.."],
+[1,"insist on vpger.","","She insisted on paying for dinner.","坚持（做）.."],
+[1,"give so. the cold shoulder","","He gave me the cold shoulder all night.","冷落.."], 
+[1,"sorry to burst in","","Sorry to burst in, but there's a call for you.","不好意思贸然打扰"],
+[1,"wait on so.","","The young waiter waited on the whole table alone.","招待"],
+[1,"hook up with so.","","They hooked up last summer and are still together.","和..交往"],
+[1,"make up sth.","","He made up an excuse about his car breaking down.","编造"],
+[1,"shut your face","","Shut your face — I can't hear the movie.","闭嘴"],
+[1,"flirt with so.","","He flirted with the waitress and forgot my order.","和..调情"],
+[1,"with bad blood between..","","With bad blood between them, the meeting was tense.","彼此结怨"],
+
 
 
 [1,"","","",""],
