@@ -284,6 +284,23 @@ list = [
 [1,"shut your face","","Shut your face — I can't hear the movie.","闭嘴"],
 [1,"flirt with so.","","He flirted with the waitress and forgot my order.","和..调情"],
 [1,"with bad blood between..","","With bad blood between them, the meeting was tense.","彼此结怨"],
+[1,"not in so many words","","She said, not in so many words, that I should leave.","说白了"],  
+[1,"on purpose","","He stepped on my foot on purpose.","故意地"],
+[1,"stick your nose into sth.","","Don't stick your nose into my business.","多管闲事"],
+[1,"bite me in the ass","","That lie will come back to bite you in the ass.","自食恶果"],
+[1,"hinges on sth.","","Everything hinges on one phone call.","取决于"],
+[1,"sick of so.","","I'm sick of his excuses.","讨厌.."],
+[1,"spanked on sth.","","Our team got spanked on national TV.","惨败"],
+[1,"dissociate from one's emotions","","He dissociates from his emotions when he's stressed.","情感解离"],  
+[1,"anxiety disorders","","Anxiety disorders affect millions of people.","焦虑障碍"],
+[1,"sweeping sth. under the rug","","They swept the problem under the rug for years.","对..避而不谈"],
+[1,"hightail it","","We hightailed it out of there when the sirens started.","赶紧溜走"],
+[1,"work in the long run","","Slow, steady practice works in the long run.","长远来看奏效"],
+[1,"free of sth.","","The air here is free of pollution.","没有.."],
+[1,"every so often ","","Why do you call every so often?","时常"],  
+[1,"go along","","The project is going along smoothly.","进展"],
+[1,"muster up","","He mustered up the courage to ask her out.","鼓起勇气"],
+[1,"conclude with sth.","","The show concluded with a fireworks display.","以..结束"],  
 
 
 
