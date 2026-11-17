@@ -333,6 +333,16 @@ list = [
 [1,"dear lord","","Dear lord, what happened to your hair?","我的天呐"],
 [1,"proceeded to","","He proceeded to tell us the whole story.","接着"],
 [1,"flat on..","","He was flat on his back on the floor.","平躺在.."],
+[1,"in case","","Take an umbrella, in case it rains.","以防万一"],
+[1,"in terms of sth.","","In terms of price, this one wins.","就..而言"],
+[1,"sink this low","","I can't believe he would sink this low.","堕落至此"],
+[1,"let's not go there","","Let's not go there — it's a long story.","别提这件事了"],
+[1,"dumb move","","Quitting without a backup plan was a dumb move.","失策"],
+[1,"words to live by","","Honesty and kindness are words to live by.","信奉的准则"],
+[1,"take the edge off","","A walk in the park took the edge off my anger.","缓和"],
+[1,"screw up","","I screwed up the presentation.","搞砸"],
+[1,"make out","","They started making out on their first date.","亲热"],
+
 
 
 
