@@ -342,6 +342,16 @@ list = [
 [1,"take the edge off","","A walk in the park took the edge off my anger.","缓和"],
 [1,"screw up","","I screwed up the presentation.","搞砸"],
 [1,"make out","","They started making out on their first date.","亲热"],
+[1,"hop in the car","","Hop in the car — we're leaving in two minutes.","上车"],
+[1,"flung to sth.","","She flung her bag to the floor in anger.","猛地甩向.."],
+[1,"at the point of..","","She was at the point of tears when he apologized.","正要.."],
+[1,"dial up","","Dial up the music — I love this song.","调高"],
+[1,"swallowed up by..","","The village was swallowed up by the flood.","被..吞没"],
+[1,"stay away","","Stay away from the cliff — it's dangerous.","避开"],
+[1,"veers off","","The car veered off the road and hit a tree.","偏离"],
+[1,"sneak into..","","They sneaked into the concert without tickets.","潜入.."],
+[1,"obsessed with so.","","She's obsessed with that new actor.","痴迷.."],
+
 
 
 
