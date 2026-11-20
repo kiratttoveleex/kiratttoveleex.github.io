@@ -351,6 +351,23 @@ list = [
 [1,"veers off","","The car veered off the road and hit a tree.","偏离"],
 [1,"sneak into..","","They sneaked into the concert without tickets.","潜入.."],
 [1,"obsessed with so.","","She's obsessed with that new actor.","痴迷.."],
+[1,"not to brag","","Not to brag, but I aced the exam.","不是炫耀"],
+[1,"slip out","","He slipped out of the meeting to take a call.","悄悄溜走"],
+[1,"Skype with..","","Can we Skype with the whole team tomorrow?","与..语音通话"],
+[1,"in the middle of..","","I'm in the middle of something — can I call you back?","正忙于.."],
+[1,"humble so.","","The coach humbled the rookie with a simple question.","使..谦卑"],
+[1,"I'm elated to be here","","I'm elated to be here with all of you tonight.","我很高兴来到这里"],
+[1,"please bear in mind","","Please bear in mind that the deadline is Friday.","请记住"],
+[1,"in no way","","This is in no way your fault.","绝不"],
+[1,"slip up","","Everyone slips up now and then.","犯错"],
+[1,"chasing after so.","","He's been chasing after her for months.","追求.."],
+[1,"chip in","","We all chipped in for the gift.","凑钱"],
+[1,"mascot of..","","The lion is the mascot of the team.","..的吉祥物"],
+[1,"far cry from sth.","","The new office is a far cry from the old one.","与..相差甚远"],
+[1,"get a grip on sth.","","I need to get a grip on my spending — I'm broke again.","控制住；掌握"],
+[1,"live in...","","My aunt lives in a small village, and I'd love to live there someday.","居住"],
+[1,"get to do sth.","","I finally got to meet my idol.","能够做.."],
+
 
 
 
